@@ -58,6 +58,10 @@ app.post("/failure", function(req,res){
     res.redirect('/');
 })
 
+app.post("/success",function(req,res){
+  res.redirect('/');
+})
+
 app.listen(process.env.PORT || 3000, function () {
   console.log("server is tuned on port 3000");
 });
