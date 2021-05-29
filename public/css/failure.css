@@ -1,0 +1,9 @@
+.jumbotron{
+    padding-top: 4rem;
+    height: 20rem;
+    background-color:aliceblue;
+}
+
+.jumbotron .container h1{
+    font-weight: 600;
+}
